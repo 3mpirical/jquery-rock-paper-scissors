@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: "Lato";
+    letter-spacing: 1.5px;
+    background-color:#212121;
+    color: white;
+}
+
+.game-display {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    height: 70rem;
+    width: 70rem;
+    background-color: black;
+    border-radius: $border-radius;
+    overflow: hidden;
+}

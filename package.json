@@ -1,0 +1,21 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "sass-watch": "node-sass public/sass --output public/css -w -r"
+  },
+  "author": "3mpirical",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1"
+  }
+}

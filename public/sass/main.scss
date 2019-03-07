@@ -1,0 +1,14 @@
+///// ABSTRACTS
+@import "./abstracts/variables";
+
+///// BASE
+@import "./base/base";
+
+///// LAYOUT
+@import "./layout/border";
+
+///// PAGES
+@import "./pages/welcome";
+@import "./pages/selection";
+@import "./pages/battle";
+@import "./pages/fight";

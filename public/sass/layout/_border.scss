@@ -1,0 +1,45 @@
+
+
+.border {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 98%;
+    width: 98%;
+    border: 1px dashed rgba(white, 0.5);
+}
+
+.outer {
+    height: 99%;
+    width: 99%;
+    border: 1px solid rgba(white, 0.5);
+}
+
+.inner {
+    height: 97%;
+    width: 97%;
+    border: 1px solid rgba(white, 0.5);
+}
+
+.menu-border {
+    &-1 {
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 2%;
+        left: 50%;
+        height: 30%;
+        width: 96%;
+        border: 1px solid rgba(white, 0.5);
+    }
+
+    &-2 {
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 2.5%;
+        left: 50%;
+        height: 29%;
+        width: 95%;
+        border: 1px dashed rgba(white, 0.5);
+    }
+}
